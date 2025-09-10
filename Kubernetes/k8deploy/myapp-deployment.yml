@@ -16,5 +16,6 @@ spec:
       containers:
       - name: dockerdemokubcontainn
         image: richapanjabi/dockerdemokuber:v3
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
