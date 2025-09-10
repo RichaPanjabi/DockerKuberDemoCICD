@@ -14,7 +14,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: dockerdemokubapp
-        image: richapanjabi/dockerdemokuber:v2
+      - name: dockerdemokubcontainn
+        image: richapanjabi/dockerdemokuber:v3
         ports:
         - containerPort: 80
